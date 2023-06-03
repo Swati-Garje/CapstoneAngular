@@ -1,0 +1,16 @@
+<input type="text" placeholder="email" [(ngModel)]="email"><br>
+<!-- <button routerLink="/reset" (click)="getEmail()">Reset</button> -->
+<button routerLink="/main/modal/reset">reset</button>
+
+<div class="modal fade" id="resetModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <app-reset></app-reset>
+            </div>
+        </div>
+    </div>
+</div>

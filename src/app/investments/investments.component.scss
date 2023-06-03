@@ -1,0 +1,66 @@
+.invst{
+    padding: 0 7rem;
+    background-color: #fefefe;
+    
+    &_intro{
+        padding: 3rem 4rem 0;
+
+        &_head{
+            padding-top: 3rem;
+    
+            &_line{
+                font-family: 'Ubuntu', sans-serif;
+            }
+        }
+
+        &_imgSec_img{
+            height: 15rem;
+            width: 29rem;
+            position: absolute;
+            left: -1rem;
+        }
+    }
+
+    &__cards{
+        margin: 8rem 0 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.overlay {
+    position: absolute; 
+    width: 100%;
+    left: 0;
+    bottom: -.04rem;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    font-size: 1.1rem;
+    padding: 1.1rem;
+    text-align: center;
+}
+
+.img_container{
+    margin: 0 2rem;
+    height: 16.5rem;
+    width: 20rem;
+}
+
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.22) 10px 13px 10px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;    height: 12rem;
+    position: relative;
+
+    &-img-top{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+
+    &:hover{
+        // transform: translate(1px, -30px);
+        transform: scale(1.07);
+        animation-duration: 5s;
+    }
+}

@@ -1,0 +1,14 @@
+<form (ngSubmit)="UpdatePass()" [formGroup]="regForm">
+
+    <!-- <input type="email" placeholder="email" 
+    formControlName="email" [(ngModel)]="updatePassUser.email" required><br> -->
+
+    <input type="password" placeholder="password" 
+    formControlName="pwd" [(ngModel)]="updatePassUser.pwd" required><br>
+
+    <input type="password" placeholder="conferm password" 
+    formControlName="cnfpwd" required><br>
+
+    <input type="submit" value="Reset"> 
+
+</form>

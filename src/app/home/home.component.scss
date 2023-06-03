@@ -1,0 +1,25 @@
+.carousel-caption{
+    position: absolute;
+    top: 2rem;
+
+    &__head{
+        text-align: right;
+    }
+
+    &__head__3{
+        text-align: right;
+        top:10rem;
+    }
+}
+
+.carousel-inner{
+    height: 23rem;
+
+    &__img{
+        height: 23rem;
+    }
+}
+
+h5{
+    font-size: 2rem;
+}
