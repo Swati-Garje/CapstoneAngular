@@ -19,6 +19,9 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ServicesComponent } from './services/services.component';
 import { InvestmentsComponent } from './investments/investments.component';
+import { FooterComponent } from './footer/footer.component';
+import { ContactComponent } from './contact/contact.component';
+import { StockComponent } from './stock/stock.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +39,10 @@ import { InvestmentsComponent } from './investments/investments.component';
     UserProfileComponent,
     PortfolioComponent,
     ServicesComponent,
-    InvestmentsComponent
+    InvestmentsComponent,
+    FooterComponent,
+    ContactComponent,
+    StockComponent
   ],
   imports: [
     BrowserModule,

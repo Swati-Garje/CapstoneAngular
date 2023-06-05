@@ -1,14 +1,38 @@
-.carousel-caption{
-    position: absolute;
-    top: 2rem;
+.carousel-item{
+    position: relative;
+}
 
-    &__head{
-        text-align: right;
+.carousel_overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 110%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.carousel-caption{
+    font-size: 1.8rem;
+    color: rgb(246, 245, 245);
+    font-family: 'Rajdhani', sans-serif;
+    position: relative;
+
+    &_1{
+        position: absolute;
+        top: 5rem;
+        left: 46rem;
     }
 
-    &__head__3{
-        text-align: right;
-        top:10rem;
+    &_2{
+        position: absolute;
+        top: 5rem;
+        left: 15rem;
+    }
+
+    &_3{
+        position: absolute;
+        top: 5rem;
+        left: 46rem;
     }
 }
 
